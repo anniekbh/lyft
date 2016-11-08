@@ -1,0 +1,60 @@
+*{
+	padding:0px;
+	margin:0px;
+	box-sizing: border-box;
+}
+#load {
+	background-image: url("../img/lyftFondo.jpg");
+	background-size: cover;
+	background-position: center;
+	position: absolute;
+	z-index: 200;
+	width: 100vw;
+	height: 100vh;
+}
+
+#registro{
+	width: 100vw;
+	height: 100vh;
+}
+
+#videoCar { 
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  height: 100vh;
+  z-index: -100;
+  transform: translateX(-50%) translateY(-50%);
+	transition: 1s opacity;
+}
+
+#logoVideo{
+	height: 100%;
+	width: 100%;
+}
+
+#botones {
+  color: white;
+  padding: 2rem;
+  width: 100%;
+  margin:2rem;
+  float: right;
+  font-size: 1.2rem;
+}
+
+#botones button { 
+  display: block;
+  width: 80%;
+  padding: .4rem;
+  border: none; 
+  margin: 1rem auto; 
+  font-size: 1.3rem;
+  background: rgba(255,255,255,0.23);
+  color: #fff;
+  border-radius: 3px; 
+  cursor: pointer;
+  transition: .3s background;
+}
+#botones button:hover { 
+   background: rgba(0,0,0,0.5);
+}
