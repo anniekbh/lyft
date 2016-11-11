@@ -17,43 +17,43 @@
 #registro{
 	width: 100vw;
 	height: 100vh;
+	background-image: url(../img/calles.gif);
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
-#videoCar { 
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  height: 100vh;
-  z-index: 1;
-  transform: translateX(-50%) translateY(-50%);
-	transition: 1s opacity;
+img{
+	width: 50%;
+	height: 30%;
 }
 
 .botones {
-  color: white;
   padding: 1rem;
   width: 100%;
   float: right;
   font-size: 1.2rem;
   position: absolute;
   bottom: 1rem;
-  z-index: 2;
 }
 
-.botones button {
-  display: block;
-  width: 90%;
-  padding: .4rem;
-  border: none; 
-  margin: 1rem auto; 
-  font-size: 1.3rem;
-  background: rgba(255,255,255,0.23);
+button {
+  width: 100%;
+  border-color: rgba(255,255,255,0.23);
+  margin: 1rem auto;
+	padding: .8rem;
+  font-size: 1.6rem;
   color: #fff;
-  border-radius: 3px; 
+  border-radius: 4px; 
   cursor: pointer;
 }
 
+#logIn {
+	background-color: transparent;
+}
 
-.botones button:hover { 
-   background: rgba(0,0,0,0.5);
+#signUp{
+	border:none;
+	background: #AA076B; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #AA076B , #61045F); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #AA076B , #61045F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */      
 }
