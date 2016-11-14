@@ -1,0 +1,15 @@
+*{
+	padding:0px;
+	margin:0px;
+	box-sizing: border-box;
+}
+
+button{
+	width: 100%;
+	margin: 1rem auto;
+	padding: .8rem;
+  font-size: 1.6rem;
+  color: #fff;
+  border:none; 
+  cursor: pointer;
+}
