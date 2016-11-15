@@ -6842,7 +6842,7 @@ input[type=range]:focus::-ms-fill-upper {
 
 .side-nav li {
   float: none;
-  line-height: 48px;
+  line-height: 40px;
 }
 
 .side-nav li.active {
@@ -6854,9 +6854,9 @@ input[type=range]:focus::-ms-fill-upper {
   display: block;
   font-size: 14px;
   font-weight: 500;
-  height: 48px;
-  line-height: 48px;
-  padding: 0 32px;
+  height: 40px;
+  line-height: 30px;
+  padding: 0 30px;
 }
 
 .side-nav a:hover {
@@ -6864,7 +6864,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .side-nav a.btn, .side-nav a.btn-large, .side-nav a.btn-large, .side-nav a.btn-flat, .side-nav a.btn-floating {
-  margin: 10px 15px;
+  margin: 6px 10px;
 }
 
 .side-nav a.btn, .side-nav a.btn-large, .side-nav a.btn-large, .side-nav a.btn-floating {
@@ -6887,14 +6887,14 @@ input[type=range]:focus::-ms-fill-upper {
 .side-nav li > a > [class^="mdi-"], .side-nav li > a > [class*="mdi-"],
 .side-nav li > a > i.material-icons {
   float: left;
-  line-height: 48px;
-  margin: 0 32px 0 0;
-  width: 24px;
+  line-height: 40px;
+  margin: 0 30px 0 0;
+  width: 20px;
   color: rgba(0, 0, 0, 0.54);
 }
 
 .side-nav .divider {
-  margin: 8px 0 0 0;
+  margin: 6px 0 0 0;
 }
 
 .side-nav .subheader {
@@ -6947,16 +6947,16 @@ input[type=range]:focus::-ms-fill-upper {
 .side-nav .userView .name,
 .side-nav .userView .email {
   font-weight: 14px;
-  line-height: 24px;
+  line-height: 20px;
 }
 
 .side-nav .userView .name {
-  margin-top: 16px;
+  margin-top: 14px;
   font-weight: 500;
 }
 
 .side-nav .userView .email {
-  padding-bottom: 16px;
+  padding-bottom: 14px;
   font-weight: 400;
 }
 
@@ -6970,7 +6970,7 @@ input[type=range]:focus::-ms-fill-upper {
 
 .side-nav.fixed a {
   display: block;
-  padding: 0 16px;
+  padding: 0 14px;
   color: rgba(0, 0, 0, 0.87);
 }
 
@@ -6996,10 +6996,10 @@ input[type=range]:focus::-ms-fill-upper {
             transform: translateX(105%);
   }
   .side-nav a {
-    padding: 0 16px;
+    padding: 0 14px;
   }
   .side-nav .userView {
-    padding: 16px 16px 0;
+    padding: 14px 14px 0;
   }
 }
 

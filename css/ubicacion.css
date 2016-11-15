@@ -17,3 +17,9 @@ a{
 	text-decoration:none;
 	color: #fff;
 }
+
+.userView{
+	background-image: url(../img/pikafondo.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
