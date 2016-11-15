@@ -3,6 +3,7 @@ function initMap() {
     center: {lat: -34.397, lng: 150.644},
     zoom: 14,
     mapTypeId: google.maps.MapTypeId.ROADMAP
+    
   });
   var infoWindow = new google.maps.InfoWindow({map: map});
 
@@ -25,7 +26,7 @@ function initMap() {
     handleLocationError(false, infoWindow, map.getCenter());
   };
 
-  function initAutocomplete() {
+  /*function initAutocomplete() {
     // Create the search box and link it to the UI element.
     var input = document.getElementById('pac-input');
     var searchBox = new google.maps.places.SearchBox(input);
@@ -80,7 +81,7 @@ function initMap() {
       });
       map.fitBounds(bounds);
     });
-  }
+  }*/
 }
 
 function handleLocationError(browserHasGeolocation, infoWindow, pos) {
