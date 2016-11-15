@@ -1,14 +1,19 @@
 html, body {
   height: 100%;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
 }
 
 #map {
   height: 100%;
+  width: 100vw;
 }
 
-span{
-	padding: 0.2rem;
-	margin:0px;
+.menu-bars{
+	margin-left: 2%;
+}
+
+a{
+	text-decoration:none;
+	color: #fff;
 }
