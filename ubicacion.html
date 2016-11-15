@@ -10,17 +10,36 @@
 		<meta charset="UTF-8">
 	</head>
 	<body>
-		<input id="pac-input" class="controls" type="text" placeholder="Search Box">
-    	<div id="map"></div> 
-
+		  <ul id="slide-out" class="side-nav">
+		    <li>
+		    	<div class="userView">
+		      	<div class="background">
+		        	<img src="img/hydro.jpg" height="168px;">
+		      	</div>
+		      	<a href="#!user"><img class="circle" src="img/pusheen-pikachu.gif"></a>
+		      	<a href="#!name"><span class="white-text name">John Doe</span></a>
+		      	<a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a>
+		    	</div>
+		    </li>
+		    <hr>
+		    <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+		    <hr>
+		    <li><a href="#!">Second Link</a></li>
+		    <hr>
+		    <li><a class="subheader">Subheader</a></li>
+		    <hr>
+		    <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+		    <hr>
+		    <li><a class="subheader">Subheader</a></li>
+		    <hr>
+		    <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+		  </ul>
+		  <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+    <div id="map"></div> 
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<<<<<<< HEAD
-		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBxzbvGMyMskSty_gQQhvkHsL_TkpNEGnI&signed_in=true&callback=initMap"
-    async defer></script>
-=======
-		 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBxzbvGMyMskSty_gQQhvkHsL_TkpNEGnI&libraries=places&callback=initAutocomplete"
-         async defer></script>
->>>>>>> 43bc194b6bcca60fb2b4c6f9e8cfc68ac2e4d7aa
+		 <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBxzbvGMyMskSty_gQQhvkHsL_TkpNEGnI&callback=initMap">
+    </script>
 		<script type="text/javascript" src="js/jquery.validate.js" ></script>
 		<script type="text/javascript" src="js/materialize.js"></script>
 		<script type="text/javascript" src="js/ubicacion.js"></script>
