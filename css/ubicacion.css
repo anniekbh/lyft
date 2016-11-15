@@ -8,3 +8,7 @@ html, body {
   height: 100%;
 }
 
+span{
+	padding: 0.2rem;
+	margin:0px;
+}
