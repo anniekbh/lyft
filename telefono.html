@@ -10,36 +10,34 @@
 		<meta charset="UTF-8">
 	</head>
 	<body>
-		<div class="center-align">
-			<div class="encabezado-wrapper">
-				<div class="row">
-					<div class="col s2">
-						<a href="index.html"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
-					</div>
-					<div class="col s10">
-						<h4>Sign Up</h4>
-					</div>
+		<div class="encabezado center-align">
+			<div class="row">
+				<div class="col s2 left-align">
+					<a href="index.html"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
 				</div>
-				<span>Join now for a free ride credit</span>
-			</div>
-			<hr>
-			<div class="numeroCiudad-wrapper">
-				<div class="row elegirPais">
-					<div class="col s2-wrapper center-align">
-						<img src="img/peru_flat.png">
-						<i class="fa fa-sort-desc" aria-hidden="true"></i>
-					</div>
-					<div class="col s10-wrapper">
-						<form id="sign">
-							<input type="number" placeholder="+51" id="telefono" name="telefono" required="true">
-						</form>
-					</div>
+				<div class="col s10">
+					<h4>Sign Up</h4>
 				</div>
-				<span>We'll send a text to verify your phone</span>
 			</div>
-			<div class="siguiente">
-				<a href="verificacion.html"><button id="next" class="pink">NEXT</button></a>
+			<span class="center-align">Join now for a free ride credit</span>
+		</div>
+		<hr>
+		<div class="numeroCiudad center-align">
+			<div class="row elegirPais">
+				<div class="col s2-wrapper center-align">
+					<img src="img/peru_flat.png">
+					<i class="fa fa-sort-desc" aria-hidden="true"></i>
+				</div>
+				<div class="col s10-wrapper">
+					<form type="submit" id="sign" action="form" method="POST">
+						<input type="number" placeholder="+51" id="telefono" name="telefono">
+					</form>
+				</div>
 			</div>
+			<span>We'll send a text to verify your phone</span>
+		</div>
+		<div class="siguiente">
+			<button type="submit" id="next" class="pink">NEXT</button>
 		</div>
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<script type="text/javascript" src="js/jquery.validate.js" ></script>

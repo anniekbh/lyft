@@ -3,7 +3,7 @@ $(window).load(function(){
 });
 
 $(document).ready(function(){
-		$("#sign").submit(function(){
+		$("#sign").keypress(function(){
 			$("#next").attr("disabled");
 			$("#next-verificacion").attr("disabled");
 		});
